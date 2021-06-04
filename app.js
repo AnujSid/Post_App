@@ -4,7 +4,7 @@ const app=express();
 const methodOverride = require('method-override');
 const Post=require("./models/post");
 
-const url=process.env.DATABASE||"mongodb://localhost:27017/Post_app";
+const url="mongodb+srv://anujsid596:mother1234@cluster0.kpmeh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"||"mongodb://localhost:27017/Post_app";
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true})
 .then(()=>{
 	console.log("connected");
