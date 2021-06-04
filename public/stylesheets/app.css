@@ -1,0 +1,32 @@
+.blog{
+    display: list-item; 
+    list-style-type:none;
+}
+body{
+    background-color: black;
+}
+.edit{
+    background-color:rgb(218, 221, 31)!important;
+}
+.delete{
+    background-color:rgb(255, 83, 60)!important;
+}
+.btn{
+    border-radius: 0;
+}
+.change {
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+    color: rgb(99, 94, 94);
+}
+a:hover{
+    color:rgb(218, 221, 31);
+}
+.shadow-sm:hover{
+    box-shadow: 0 1rem 3rem rgba(245, 242, 62)!important;
+}
+.bg-light{
+    background-color:rgb(218, 221, 31)!important;
+}
